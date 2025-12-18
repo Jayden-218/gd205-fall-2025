@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2F4930C0-1521-DADC-91E9-2265A8A215E0}</ProjectGuid>
+    <ProjectGuid>{030685DE-09B4-BC47-029A-EF089CAFC701}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,8 +61,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scricpt\CharacterControl.cs" />
+    <Compile Include="Assets\scricpt\Seeking.cs" />
     <Compile Include="Assets\scricpt\rotation.cs" />
+    <Compile Include="Assets\scricpt\SubMovement.cs" />
     <Compile Include="Assets\scricpt\Playermovement.cs" />
+    <Compile Include="Assets\scricpt\Aray.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
